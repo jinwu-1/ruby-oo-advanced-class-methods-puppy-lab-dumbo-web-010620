@@ -21,10 +21,9 @@ class Dog
   end
 
   def self.print_all
-    dog_name = self.all.map do |dog|
-      dog.name
+    self.all.map do |dog|
+      puts dog.name
     end
-    puts dog_name
   end
 
 end
